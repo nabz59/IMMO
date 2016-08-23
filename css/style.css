@@ -1,11 +1,20 @@
 /*
- css of contact page , used Bootstrap */
+ css of home page , used Bootstrap */
 
 html,
 body {
     height: 100%;
     background-color: #9BA6FF;
-     padding-top: 70px;
+}
+
+.carousel {
+    height: 50%;
+}
+
+.item,
+.active,
+.carousel-inner {
+    height: 100%;
 }
 
 .fill {
